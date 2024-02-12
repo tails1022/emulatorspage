@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    background: rgb(167, 167, 167);
+}
+
+@font-face{
+    font-family:'FOT-RodinNTLG Pro';
+    src: url('assets/FOT-RodinNTLG\ Pro\ DB.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family:'FOT-RodinNTLG Pro' ;
+}
