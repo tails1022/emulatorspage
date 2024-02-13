@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 html{
-    background: rgb(167, 167, 167);
+    background: rgb(172,172,172);
+background: linear-gradient(90deg, rgba(172,172,172,1) 0%, rgba(221,221,221,1) 33%, rgba(230,230,230,1) 50%, rgba(221,221,221,1) 66%, rgba(172,172,172,1) 100%);
 }
 
 @font-face{
@@ -16,3 +17,4 @@ html{
 *{
     font-family:'FOT-RodinNTLG Pro' ;
 }
+
